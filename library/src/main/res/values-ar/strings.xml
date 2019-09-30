@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="smart_rating_experience">كيف كانت تجربتك معنا؟</string>
+    <string name="smart_rating_later">ربما في وقت لاحق</string>
+    <string name="smart_rating_never">لا تظهر مرة اخرى</string>
+    <string name="smart_rating_feedback">تقييم</string>
+    <string name="smart_rating_submit">تقديم</string>
+    <string name="smart_rating_cancel">إلغاء</string>
+    <string name="smart_rating_suggestions">أرسل لنا اقتراحاتك لتحسين تطبيقنا</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="smart_rating_experience">Comment était votre expérience avec nous?</string>
+    <string name="smart_rating_later">Peut-être plus tard</string>
+    <string name="smart_rating_never">Jamais</string>
+    <string name="smart_rating_feedback">Rétroaction</string>
+    <string name="smart_rating_submit">Soumettre</string>
+    <string name="smart_rating_cancel">Annuler</string>
+    <string name="smart_rating_suggestions">Envoyez-nous vos suggestions pour améliorer notre application</string>
+</resources>

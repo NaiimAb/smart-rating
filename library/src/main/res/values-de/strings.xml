@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="smart_rating_experience">Wie finden Sie unsere App?</string>
+    <string name="smart_rating_later">Vielleicht später</string>
+    <string name="smart_rating_never">Niemals</string>
+    <string name="smart_rating_feedback">Feedback</string>
+    <string name="smart_rating_submit">Abschicken</string>
+    <string name="smart_rating_cancel">Abbrechen</string>
+    <string name="smart_rating_suggestions">Sagen Sie uns was Ihnen nicht gefällt und wir arbeiten daran!</string>
+</resources>

@@ -18,21 +18,45 @@ public class MainActivity extends AppCompatActivity {
 
 
         final SmartRating smartRating = new SmartRating.Builder(this)
-                //.session(0)
+                //.icon(drawable)
+                .session(7)
                 .numOfStars(3)
-                .title("How was your experience with us?")
+                .title("Dialog Title")
                 .titleTextColor(R.color.black)
-                .positiveButtonText("Not Now")
-                .negativeButtonText("Never")
+                .positiveButtonText("Later")
+                .negativeButtonText("Do not show")
                 .positiveButtonTextColor(R.color.white)
                 .negativeButtonTextColor(R.color.black)
-                .formTitle("Submit Feedback")
-                .formHint("Tell us where we can improve")
-                .formSubmitText("Submit")
-                .formCancelText("Cancel")
+                .formTitle("Feedback Title")
+                .formHint("Feedback Edit Text Hint")
+                .formSubmitText("Submit Text")
+                .formCancelText("Cancel Text")
                 .ratingBarColor(R.color.yellow)
-                .playStoreUrl("YOUR_URL")
-                .build();
+                .playStoreUrl("Your play store URL")
+                .onNumOfStarsPassed(new SmartRating.Builder.RatingNumOfStarsPassedListener() {
+                    @Override
+                    public void onNumOfStarsPassed(SmartRating ratingDialog, float rating, boolean numOfStarsPassed) {
+                        ratingDialog.dismiss();
+                    }
+                })
+                .onNumOfStarsFailed(new SmartRating.Builder.RatingNumOfStarsFailedListener() {
+                    @Override
+                    public void onNumOfStarsFailed(SmartRating ratingDialog, float rating, boolean numOfStarsPassed) {
+                        ratingDialog.dismiss();
+                    }
+                })
+                .onRatingChanged(new SmartRating.Builder.RatingSelectedListener() {
+                    @Override
+                    public void onRatingSelected(float rating, boolean thresholdCleared) {
+
+                    }
+                })
+                .onFormSubmitted(new SmartRating.Builder.RatingFeedbackFormListener() {
+                    @Override
+                    public void onFormSubmitted(String feedback) {
+
+                    }
+                }).build();
 
         tvTest.setOnClickListener(new View.OnClickListener() {
             @Override

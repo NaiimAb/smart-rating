@@ -1,0 +1,33 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="me.naiimab.ratingapp.test" >
+4
+5    <uses-sdk
+5-->N:\Projects\Programmation\Android\Workspaces\Libraries\RatingApp\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6017071090633464453.xml:5:5-74
+6        android:minSdkVersion="16"
+6-->N:\Projects\Programmation\Android\Workspaces\Libraries\RatingApp\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6017071090633464453.xml:5:15-41
+7        android:targetSdkVersion="29" />
+7-->N:\Projects\Programmation\Android\Workspaces\Libraries\RatingApp\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6017071090633464453.xml:5:42-71
+8
+9    <instrumentation
+9-->N:\Projects\Programmation\Android\Workspaces\Libraries\RatingApp\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6017071090633464453.xml:11:5-15:70
+10        android:name="androidx.test.runner.AndroidJUnitRunner"
+10-->N:\Projects\Programmation\Android\Workspaces\Libraries\RatingApp\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6017071090633464453.xml:11:22-76
+11        android:functionalTest="false"
+11-->N:\Projects\Programmation\Android\Workspaces\Libraries\RatingApp\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6017071090633464453.xml:14:22-52
+12        android:handleProfiling="false"
+12-->N:\Projects\Programmation\Android\Workspaces\Libraries\RatingApp\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6017071090633464453.xml:13:22-53
+13        android:label="Tests for me.naiimab.ratingapp"
+13-->N:\Projects\Programmation\Android\Workspaces\Libraries\RatingApp\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6017071090633464453.xml:15:22-68
+14        android:targetPackage="me.naiimab.ratingapp" />
+14-->N:\Projects\Programmation\Android\Workspaces\Libraries\RatingApp\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6017071090633464453.xml:12:22-66
+15
+16    <application android:debuggable="true" >
+16-->N:\Projects\Programmation\Android\Workspaces\Libraries\RatingApp\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6017071090633464453.xml:7:5-9:19
+16-->N:\Projects\Programmation\Android\Workspaces\Libraries\RatingApp\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6017071090633464453.xml:7:18-43
+17        <uses-library android:name="android.test.runner" />
+17-->N:\Projects\Programmation\Android\Workspaces\Libraries\RatingApp\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6017071090633464453.xml:8:9-60
+17-->N:\Projects\Programmation\Android\Workspaces\Libraries\RatingApp\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6017071090633464453.xml:8:23-57
+18    </application>
+19
+20</manifest>

@@ -4,7 +4,7 @@ ADDED from N:\Projects\Programmation\Android\Workspaces\Libraries\RatingApp\app\
 INJECTED from N:\Projects\Programmation\Android\Workspaces\Libraries\RatingApp\app\src\main\AndroidManifest.xml:2:1-21:12
 INJECTED from N:\Projects\Programmation\Android\Workspaces\Libraries\RatingApp\app\src\main\AndroidManifest.xml:2:1-21:12
 INJECTED from N:\Projects\Programmation\Android\Workspaces\Libraries\RatingApp\app\src\main\AndroidManifest.xml:2:1-21:12
-MERGED from [:library] N:\Projects\Programmation\Android\Workspaces\Libraries\RatingApp\library\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.NaiimAb:smart-rating:1.0.0] C:\Users\Naiim\.gradle\caches\transforms-2\files-2.1\8a43f870668c741931edafdebd9a4c06\smart-rating-1.0.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Naiim\.gradle\caches\transforms-2\files-2.1\aa13922a02d4ed4c6b7f47b273b607ae\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Naiim\.gradle\caches\transforms-2\files-2.1\33f87d1f09211a8e98132c8910ce6f19\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Naiim\.gradle\caches\transforms-2\files-2.1\8a1ac926d50c4fe74659d67a025451b0\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -83,8 +83,8 @@ uses-sdk
 INJECTED from N:\Projects\Programmation\Android\Workspaces\Libraries\RatingApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from N:\Projects\Programmation\Android\Workspaces\Libraries\RatingApp\app\src\main\AndroidManifest.xml
 INJECTED from N:\Projects\Programmation\Android\Workspaces\Libraries\RatingApp\app\src\main\AndroidManifest.xml
-MERGED from [:library] N:\Projects\Programmation\Android\Workspaces\Libraries\RatingApp\library\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:library] N:\Projects\Programmation\Android\Workspaces\Libraries\RatingApp\library\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.NaiimAb:smart-rating:1.0.0] C:\Users\Naiim\.gradle\caches\transforms-2\files-2.1\8a43f870668c741931edafdebd9a4c06\smart-rating-1.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.NaiimAb:smart-rating:1.0.0] C:\Users\Naiim\.gradle\caches\transforms-2\files-2.1\8a43f870668c741931edafdebd9a4c06\smart-rating-1.0.0\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Naiim\.gradle\caches\transforms-2\files-2.1\aa13922a02d4ed4c6b7f47b273b607ae\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Naiim\.gradle\caches\transforms-2\files-2.1\aa13922a02d4ed4c6b7f47b273b607ae\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Naiim\.gradle\caches\transforms-2\files-2.1\33f87d1f09211a8e98132c8910ce6f19\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41

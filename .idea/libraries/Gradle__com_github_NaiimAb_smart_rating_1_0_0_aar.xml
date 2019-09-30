@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.NaiimAb:smart-rating:1.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8a43f870668c741931edafdebd9a4c06/smart-rating-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8a43f870668c741931edafdebd9a4c06/smart-rating-1.0.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.NaiimAb/smart-rating/1.0.0/7b63ad9cb7a5ef58ab23de4e054a43d1fa9371a5/smart-rating-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

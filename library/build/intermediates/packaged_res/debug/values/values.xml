@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="blue">#1E90FF</color>
+    <color name="grey">#9E9E9E</color>
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#FFFF00</color>
+    <string name="app_name" translatable="false">Smart Rating</string>
+    <string name="smart_rating_cancel">Cancel</string>
+    <string name="smart_rating_experience">How was your experience with us?</string>
+    <string name="smart_rating_feedback">Feedback</string>
+    <string name="smart_rating_later">Maybe later</string>
+    <string name="smart_rating_never">Never</string>
+    <string name="smart_rating_submit">Submit</string>
+    <string name="smart_rating_suggestions">Send us your suggestions to improve our app</string>
+</resources>

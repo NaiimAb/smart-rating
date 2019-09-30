@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name" translatable="false">Smart Rating</string>
+
+    <string name="smart_rating_experience">How was your experience with us?</string>
+    <string name="smart_rating_later">Maybe later</string>
+    <string name="smart_rating_never">Never</string>
+    <string name="smart_rating_feedback">Feedback</string>
+    <string name="smart_rating_submit">Submit</string>
+    <string name="smart_rating_cancel">Cancel</string>
+    <string name="smart_rating_suggestions">Send us your suggestions to improve our app</string>
+</resources>

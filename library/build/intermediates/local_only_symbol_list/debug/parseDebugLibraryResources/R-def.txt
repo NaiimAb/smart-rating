@@ -1,0 +1,34 @@
+R_DEF: Internal format may change without notice
+local
+anim cycle
+anim shake
+color black
+color blue
+color grey
+color white
+color yellow
+drawable dialog_shape
+drawable edittext_shape
+drawable ic_rating_default
+id smart_rating_button_feedback_cancel
+id smart_rating_button_feedback_submit
+id smart_rating_button_negative
+id smart_rating_button_positive
+id smart_rating_buttons
+id smart_rating_feedback_buttons
+id smart_rating_feedback_edit_text
+id smart_rating_feedback_layout
+id smart_rating_feedback_title
+id smart_rating_icon
+id smart_rating_layout
+id smart_rating_rating_bar
+id smart_rating_title
+layout dialog_layout
+string app_name
+string smart_rating_cancel
+string smart_rating_experience
+string smart_rating_feedback
+string smart_rating_later
+string smart_rating_never
+string smart_rating_submit
+string smart_rating_suggestions

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:orientation="vertical"
+        android:background="@drawable/dialog_shape">
+
+        <RelativeLayout
+            android:id="@+id/smart_rating_feedback_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/smart_rating_feedback_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                tools:text="@string/smart_rating_feedback"/>
+
+            <EditText
+                android:id="@+id/smart_rating_feedback_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@id/smart_rating_feedback_title"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/edittext_shape"
+                android:gravity="top|start"
+                android:inputType="textMultiLine|textCapSentences"
+                android:lines="8"
+                android:hint="@string/smart_rating_suggestions"
+                android:maxLines="10"
+                android:minLines="6"
+                android:padding="10dp"
+                android:scrollbars="vertical"
+                android:textColorHint="@color/grey"
+                android:importantForAutofill="no" />
+
+            <LinearLayout
+                android:id="@+id/smart_rating_feedback_buttons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/smart_rating_feedback_edit_text"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                >
+
+                <Button
+                    android:id="@+id/smart_rating_button_feedback_cancel"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:textSize="15sp"
+                    android:background="@null"
+                    style="@null"
+                    tools:text="@string/smart_rating_cancel"/>
+
+                <Button
+                    android:id="@+id/smart_rating_button_feedback_submit"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:textSize="15sp"
+                    android:background="@color/blue"
+                    android:textColor="@color/white"
+                    style="@null"
+                    tools:text="@string/smart_rating_submit"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/smart_rating_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/smart_rating_icon"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:contentDescription="@null"
+                tools:src="@drawable/ic_rating_default"/>
+
+            <TextView
+                android:id="@+id/smart_rating_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/smart_rating_icon"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:padding="20dp"
+                android:textSize="20sp"
+                tools:text="@string/smart_rating_experience"/>
+
+
+            <RatingBar
+                android:id="@+id/smart_rating_rating_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/smart_rating_title"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:numStars="5"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:stepSize="1" />
+
+            <LinearLayout
+                android:id="@+id/smart_rating_buttons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/smart_rating_rating_bar"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/smart_rating_button_negative"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="?attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:textSize="15sp"
+                    style="@null"
+                    tools:text="@string/smart_rating_never"/>
+
+                <Button
+                    android:id="@+id/smart_rating_button_positive"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/blue"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:textSize="15sp"
+                    android:textColor="@color/white"
+                    style="@null"
+                    tools:text="@string/smart_rating_later"/>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
